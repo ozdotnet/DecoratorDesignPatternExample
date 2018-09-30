@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorDesignPatternExample", "DecoratorDesignPatternExample.csproj", "{7D6E2751-3377-4327-B977-12F51BF207B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorDesignPatternExample.Core", "..\DecoratorDesignPatternExample.Core\DecoratorDesignPatternExample.Core.csproj", "{B982F396-F184-4A2E-846F-9E50D662D6EF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorDesignPatternExample.Core", "DecoratorDesignPatternExample.Core\DecoratorDesignPatternExample.Core.csproj", "{B982F396-F184-4A2E-846F-9E50D662D6EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
