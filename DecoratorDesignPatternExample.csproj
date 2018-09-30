@@ -42,11 +42,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Borrowable.cs" />
+    <Compile Include="LibraryItemDecorator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DecoratorDesignPatternExample.Core\DecoratorDesignPatternExample.Core.csproj">
+      <Project>{b982f396-f184-4a2e-846f-9e50d662d6ef}</Project>
+      <Name>DecoratorDesignPatternExample.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
